@@ -1,0 +1,10 @@
+N2 V14 - MODO TELA BLOQUEADA
+
+Esta versão mantém o agendamento da V13, mas durante os horários programados usa mensagens Win32 em background em vez de mover o cursor físico.
+
+IMPORTANTE:
+- Configure PAUSAR, DESPAUSAR e as categorias com a tela DESBLOQUEADA.
+- Depois de configuradas, o N2 pode tentar executar sem mexer no mouse e sem colocar a janela em primeiro plano.
+- Para Win+L funcionar, o aplicativo alvo precisa aceitar mensagens Win32 de mouse em background. Jogos, apps que usam entrada exclusiva, alguns navegadores/controles customizados e programas protegidos podem não aceitar.
+- A captura/testes continuam usando o mouse físico, pois são etapas de configuração.
+- Se o app não aceitar PostMessage/WM_LBUTTONDOWN, não existe garantia de clique com a sessão do Windows bloqueada.

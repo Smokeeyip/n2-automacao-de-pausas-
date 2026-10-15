@@ -1,0 +1,21 @@
+N2 - APLICATIVO EXE
+
+COMO GERAR O APLICATIVO:
+1. Abra esta pasta em um PC Windows.
+2. Execute GERAR_EXE.bat.
+3. O script instala o PyInstaller e as dependencias necessarias.
+4. O arquivo final sera criado em:
+   dist\N2.exe
+
+IMPORTANTE:
+- Python e necessario SOMENTE no computador usado para GERAR o EXE.
+- No computador onde voce vai USAR o aplicativo, nao sera necessario ter Python instalado.
+- O programa continua usando o mesmo config.json salvo em:
+  %USERPROFILE%\PausaAutomatica\
+- Nao apague a pasta de configuracao se quiser manter horarios e posicoes salvos.
+- Para distribuir o programa, copie apenas:
+  dist\N2.exe
+
+OBSERVACAO:
+O executavel deve ser gerado no Windows, porque o projeto usa Tkinter,
+PyAutoGUI e APIs Win32 do Windows.

@@ -1,0 +1,35 @@
+N2 - ABERTURA AUTOMATICA (WINDOWS 10/11)
+
+1. Extraia TODO o ZIP para uma pasta do computador.
+2. Abra N2 e clique duas vezes em ABRIR.bat.
+3. Na primeira vez, aguarde: se necessario, sera instalado Python para
+   seu usuario, e as dependencias serao preparadas automaticamente.
+   Essa etapa exige internet e pode levar alguns minutos.
+4. Nas proximas vezes, use o mesmo ABRIR.bat.
+
+O pacote NAO inclui um EXE pre-compilado. A alternativa entregue e a
+instalacao automatica do Python, sem comandos manuais.
+Se Python ja estiver instalado e tiver Tcl/Tk, ele sera reutilizado.
+Nao e necessario executar como administrador normalmente.
+
+PARA USAR EM OUTRO PC SEM PYTHON
+Abra GERAR_EXE.bat em um Windows com internet. Aguarde terminar.
+O arquivo dist\N2.exe pode ser copiado e aberto no outro Windows.
+A geracao instala Python/dependencias apenas no computador que gera.
+
+SE OCORRER ERRO
+Mantenha a janela aberta e envie uma foto da mensagem.
+Sem winget: instale o Atualizador de Aplicativo da Microsoft Store,
+ou Python com Tcl/Tk pelo site https://www.python.org/downloads/windows/.
+Em computador de empresa, politicas locais podem impedir instalacao.
+
+Suas configuracoes permanecem em %USERPROFILE%\PausaAutomatica\config.json.
+Nao exclua .venv enquanto usar a abertura pelo script.
+O programa e a interface originais foram preservados.
+A execucao com tela bloqueada continua dependendo do aplicativo alvo,
+conforme LEIA-ME.txt; a instalacao nao muda essa limitacao.
+
+VALIDACAO
+Codigo Python verificado quanto a sintaxe. O ambiente de preparacao
+nao e Windows; instalacao, interface e geracao do EXE precisam ser
+confirmadas em um computador Windows.
